@@ -47,12 +47,6 @@
                     android:layout_height="wrap_content"
                     android:text="18+" />
 
-                <TextView
-                    android:id="@+id/cost"
-                    android:layout_gravity="end"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="399р" />
             </FrameLayout>
 
         </LinearLayout>

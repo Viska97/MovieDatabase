@@ -77,7 +77,6 @@ public class FilmsAdapter extends RecyclerView.Adapter<FilmsAdapter.ViewHolder>{
         Film film = items.get(position);
         holder.filmName.setText(film.getFilmName());
         holder.ageLimit.setText(String.valueOf(film.getAgeLimit()) + "+");
-        holder.cost.setText(String.valueOf(film.getCost()) + "\u20BD");
         Picasso.get().load(film.getPosterLink()).fit().centerCrop().into(holder.poster);
     }
 
@@ -89,7 +88,7 @@ public class FilmsAdapter extends RecyclerView.Adapter<FilmsAdapter.ViewHolder>{
     public class ViewHolder extends RecyclerView.ViewHolder{
 
         ImageView poster;
-        TextView filmName, ageLimit,cost;
+        TextView filmName, ageLimit;
 
         View container;
 
@@ -98,7 +97,6 @@ public class FilmsAdapter extends RecyclerView.Adapter<FilmsAdapter.ViewHolder>{
             super(itemView);
             filmName = itemView.findViewById(R.id.filmName);
             ageLimit = itemView.findViewById(R.id.ageLimit);
-            cost = itemView.findViewById(R.id.cost);
             poster = itemView.findViewById(R.id.poster);
             container = itemView.findViewById(R.id.filmcontainer);
             container.setOnClickListener(new View.OnClickListener() {
