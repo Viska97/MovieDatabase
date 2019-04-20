@@ -1,9 +1,9 @@
-# CinemaOnline
-Training Android application for online cinema service
+# Movie Database
+Training Android application for online movie database service
 
 Приложение для курсового проекта по дисциплине "Базы данных". 
 Приложение является учебным аналогом сервисов для просмотра фильмов онлайн.
-Приложение получает данные через rest api (бакенд реализован на Spring Framework)
+Приложение получает данные через REST API (бакенд реализован на Spring Framework)
 Находится в разработке.
 
 На данный момент реализованы следующие функции:
