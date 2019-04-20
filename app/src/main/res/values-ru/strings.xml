@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Кинотеатр</string>
+    <string name="app_name">Movie Database</string>
     <string name="films">Фильмы</string>
     <string name="actors">Актеры</string>
     <string name="favorites">Избранное</string>
     <string name="history">История</string>
-    <string name="purchases">Покупки</string>
-    <string name="subscription">Подписка</string>
     <string name="users">Пользователи</string>
     <string name="statistics">Статистика</string>
     <string name="settings">Настройки</string>
@@ -43,7 +41,6 @@
     <string name="orderrating">рейтингу</string>
     <string name="all">все</string>
     <string name="defaultorderby">по умолчанию</string>
-    <string name="orderprice">по цене</string>
     <string name="film">Фильм</string>
     <string name="reviews">Оценки</string>
     <string name="share">Поделиться</string>

@@ -1,11 +1,9 @@
 <resources>
-    <string name="app_name">Cinema</string>
+    <string name="app_name">Movie Database</string>
     <string name="films">Films</string>
     <string name="actors">Actors</string>
     <string name="favorites">Favorites</string>
     <string name="history">History</string>
-    <string name="purchases">Purchases</string>
-    <string name="subscription">Subscription</string>
     <string name="users">Users</string>
     <string name="user">User</string>
     <string name="statistics">Statistics</string>
@@ -34,7 +32,6 @@
     <string name="orderyear">year</string>
     <string name="ordergenre">genre</string>
     <string name="orderrating">rating</string>
-    <string name="orderprice">price</string>
     <string name="wrongcredentials">Login or password contains wrong characters</string>
     <string name="networkerror">There is no internet connection. Please check your internet connection and try again</string>
     <string name="badcredentialserror">Login or password incorrect</string>

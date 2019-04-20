@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.visapps.cinemaonline.fragments.HistoryFragment">
+    tools:context="visapps.moviedatabase.app.fragments.HistoryFragment">
 
     <TextView
         android:id="@+id/emptystate"

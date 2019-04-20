@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.visapps.cinemaonline.activities.FilmActivity"
+    tools:context="visapps.moviedatabase.app.activities.FilmActivity"
     tools:showIn="@layout/activity_film">
 
 </android.support.constraint.ConstraintLayout>

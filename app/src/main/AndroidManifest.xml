@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.visapps.cinemaonline">
+    package="com.moviedatabase.app">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name=".CinemaOnline"
+        android:name="visapps.moviedatabase.app.CinemaOnline"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -13,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".activities.MainActivity"
+            android:name="visapps.moviedatabase.app.activities.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme">
             <intent-filter>
@@ -23,24 +23,24 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities.AuthActivity"
+            android:name="visapps.moviedatabase.app.activities.AuthActivity"
             android:label="@string/title_activity_auth"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".activities.FilmActivity"
+            android:name="visapps.moviedatabase.app.activities.FilmActivity"
             android:label="@string/title_activity_film"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".activities.RegisterActivity"
+            android:name="visapps.moviedatabase.app.activities.RegisterActivity"
             android:label="@string/title_activity_register"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".activities.ProfileActivity"
+            android:name="visapps.moviedatabase.app.activities.ProfileActivity"
             android:label="@string/title_activity_profile"
             android:theme="@style/AppTheme"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".activities.MarkActivity"
+            android:name="visapps.moviedatabase.app.activities.MarkActivity"
             android:label="@string/title_activity_mark"
             android:theme="@style/AppTheme"></activity>
     </application>

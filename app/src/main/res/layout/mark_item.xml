@@ -24,7 +24,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@android:color/black"
-                android:text="oldcat79" />
+                android:text="" />
 
             <TextView
                 android:id="@+id/DateAndTime"
@@ -32,7 +32,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
                 android:textColor="@android:color/black"
-                android:text="2017 01 19" />
+                android:text="" />
         </FrameLayout>
 
         <TextView
@@ -41,14 +41,14 @@
             android:layout_height="wrap_content"
             android:textSize="28sp"
             android:textStyle="bold"
-            android:text="10" />
+            android:text="" />
 
         <TextView
             android:id="@+id/Comment"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="16sp"
-            android:text="Первая часть фильма была довольно необычной. Попытки заигрывать с реалистичностью, грустный Киану Ривз в образе уставшего от жизни убийцы. И при этом, откровенно клюквенная завязка про «страшный рузски мафия» и кучи трупов за спиной главного героя. Это был довольно неплохой коктейль…" />
+            android:text="" />
 
     </LinearLayout>
 

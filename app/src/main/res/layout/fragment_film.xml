@@ -3,10 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.visapps.cinemaonline.fragments.FilmFragment">
+    tools:context="visapps.moviedatabase.app.fragments.FilmFragment">
 
     <android.support.v4.widget.SwipeRefreshLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/refresher"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -27,8 +26,8 @@
                     android:id="@+id/FilmName"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Джон уик"
-                    android:textSize="20dp"
+                    android:text=""
+                    android:textSize="20sp"
                     android:gravity="center"/>
 
                 <View
@@ -47,7 +46,7 @@
                     <ImageView
                         android:id="@+id/Poster"
                         android:layout_width="200dp"
-                        android:layout_height="300dp" />
+                        android:layout_height="280dp" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -60,35 +59,28 @@
                             android:id="@+id/Genre"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Боевик"
+                            android:text=""
                             android:layout_marginBottom="5dp"/>
 
                         <TextView
                             android:id="@+id/FilmCountry"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Великобритания"
+                            android:text=""
                             android:layout_marginBottom="5dp"/>
 
                         <TextView
                             android:id="@+id/FilmYear"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="2017"
+                            android:text=""
                             android:layout_marginBottom="5dp"/>
 
                         <TextView
                             android:id="@+id/AgeLimit"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="16+"
-                            android:layout_marginBottom="5dp"/>
-
-                        <TextView
-                            android:id="@+id/Cost"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="299₽"
+                            android:text=""
                             android:layout_marginBottom="5dp"/>
 
                         <LinearLayout
@@ -106,7 +98,7 @@
                                 android:id="@+id/Rating"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text=" 4.9" />
+                                android:text="" />
                         </LinearLayout>
 
                         <Button
@@ -158,7 +150,7 @@
                         android:id="@+id/Director"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text=" Гор вербински" />
+                        android:text="" />
                 </LinearLayout>
 
                 <View
@@ -173,7 +165,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="56dp"
-                    android:text="Когда бывший коллега Джона решает взять под свой контроль таинственную гильдию убийц, Уик вынужден выйти из отставки. Ведомый кровавой клятвой Джон отправляется в Рим, где ему придется сразиться с одними из самых опасных киллеров в мире." />
+                    android:text="" />
 
 
             </LinearLayout>
