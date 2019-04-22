@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.visapps.cinemaonline", appContext.getPackageName());
+        assertEquals("visapps.moviedatabase.app", appContext.getPackageName());
     }
 }
