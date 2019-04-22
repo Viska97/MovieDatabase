@@ -15,7 +15,7 @@ Training Android application for online movie database service
 5. История просмотров.
 6. Изменение личной информации в профиле пользователя.
 
-Используются библиотеки RxJava, Retrofit, Picasso.
+Используются Android-библиотеки RxJava, Retrofit, Picasso.
 
 ![image](https://user-images.githubusercontent.com/36709011/40141828-afa125b4-595f-11e8-9a1b-4fd900387f1f.png) ![image](https://user-images.githubusercontent.com/36709011/40141880-d19b802e-595f-11e8-8ccc-78061a5cc3b4.png)
 
